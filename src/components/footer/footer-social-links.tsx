@@ -26,7 +26,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Github',
-    link: 'https://github.com/hiriski/coursespace-landing-page',
+    link: 'https://github.com/Asrat001/CourseSpace',
     icon: '/images/icons/github.svg',
   },
 ]
