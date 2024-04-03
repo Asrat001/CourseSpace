@@ -5,6 +5,7 @@ const nextConfig = {
 },
 
   basePath: "/",
+  distDir: 'out',
   // output:'export',
   reactStrictMode: true,
 }
