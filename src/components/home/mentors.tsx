@@ -65,7 +65,7 @@ const HomeOurMentors: FC = () => {
     infinite: true,
     // autoplay: true,
     speed: 300,
-    slidesToShow: matchMobileView ? 1 : 3,
+    slidesToShow: matchMobileView ? 1 : 1,
     slidesToScroll: 1,
     prevArrow: <SliderArrow type="prev" />,
     nextArrow: <SliderArrow type="next" />,
@@ -96,7 +96,7 @@ const HomeOurMentors: FC = () => {
           Our Expert Mentors
         </Typography>
 
-        <Slider {...sliderConfig}>
+        <Slider {...sliderConfig}  >
           {data.map((item) => (
             <MentorCardItem key={String(item.id)} item={item} />
           ))}
