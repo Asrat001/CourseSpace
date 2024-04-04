@@ -4,7 +4,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
 },
 
-  basePath: "/CourseSpace",
+  basePath: "/",
   distDir: '.next',
   // output:'export',
   reactStrictMode: true,
