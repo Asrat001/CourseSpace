@@ -5,7 +5,7 @@ const nextConfig = {
 },
 
   basePath: "/CourseSpace",
-  distDir: 'out',
+  distDir: '.next',
   // output:'export',
   reactStrictMode: true,
 }
