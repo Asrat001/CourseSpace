@@ -4,7 +4,6 @@ const nextConfig = {
     ignoreDuringBuilds: true,
 },
 
-  basePath: "/",
   distDir: '.next',
   // output:'export',
   reactStrictMode: true,
